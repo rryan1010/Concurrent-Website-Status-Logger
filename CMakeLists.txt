@@ -4,8 +4,10 @@ project(WebInfrastructureMonitor)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_AUTOMOC ON)
 
-# Change this path to point to your Qt installation location.
-set(CMAKE_PREFIX_PATH "/usr/local/.../qt/6.8.2/lib/cmake")
+# Change this path to your Qt6 installation directory.
+set(CMAKE_PREFIX_PATH "/opt/homebrew/opt/qt/lib/cmake")
+# For Intel macOS via Homebrew, use:
+set(CMAKE_PREFIX_PATH "/usr/local/opt/qt/lib/cmake")
 
 find_package(Qt6 COMPONENTS Widgets REQUIRED)
 find_package(CURL REQUIRED)
