@@ -51,7 +51,7 @@ void MainWindow::setupUI() { // (Re)arrange widgets
     mainLayout->addLayout(inputLayout);
 
     setCentralWidget(centralWidget);
-    setWindowTitle("Web Infrastructure Monitor");
+    setWindowTitle("Website Status Monitor");
     resize(600, 400);
 }
 

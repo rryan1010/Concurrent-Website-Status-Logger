@@ -1,3 +1,5 @@
+#include <QApplication>
+#include "MainWindow.h"
 
 // Create QApplication and opens MainWindow.
 int main(int argc, char *argv[]) {

@@ -8,6 +8,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_PREFIX_PATH "/opt/homebrew/opt/qt/lib/cmake")
 # For Intel macOS via Homebrew, use:
 set(CMAKE_PREFIX_PATH "/usr/local/opt/qt/lib/cmake")
+## IF EITHER DO NOT WORK, SIMPLY PASTE THE PATH TO CMAKE IN YOUR QT6 INSTALLATION FOLDER
 
 find_package(Qt6 COMPONENTS Widgets REQUIRED)
 find_package(CURL REQUIRED)
