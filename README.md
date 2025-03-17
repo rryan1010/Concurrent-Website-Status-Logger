@@ -1,4 +1,4 @@
-# Website Status Monitor
+# Web Status Monitor
 
 Website Status Monitor is a modern C++ application with a Qt-based GUI that monitors the status of any website! It periodically checks if popular websites such as Google, Meta, Apple, Microsoft, and Amazon are still running by performing efficient HTTP HEAD requests using libcurl. It can also check the status for any user-specified website as well! This program uses multithreading, network programming, and a user-friendly graphical interface using Qt 6.
 
